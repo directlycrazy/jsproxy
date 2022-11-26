@@ -5,9 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
   <base target="_blank">
+  <link rel="stylesheet" href="https://inspare.cc/cdn/fonts.css">
   <style>
     body {
-      padding: 0 0.5em;
+      padding: 100px;
+      font-family: Eina, Roboto, Helvetica, Arial, sans-serif;
     }
     .box {
       margin-top: 1em;
@@ -28,7 +30,7 @@
   </style>
 </head>
 <body>
-  <h1>Inspare Network Proxy</h1>
+  <h1 style='font-family: Quantify, Roboto, Helvetica, Arial, sans-serif;'>Inspare Network Proxy</h1>
   <p>Some websites may appear broken with this tool. Websockets are not supported.</p>
   <div class="box">
     <input id="txtURL" type="text" value="www.google.com" autofocus>
@@ -36,6 +38,8 @@
   <div class="box">
     <button id="btnGo">Go</button>
   </div>
+  <p>Tired of music streaming ads? Check out <a href='https://music.inspare.cc' target="_blank">Inspare Music</a></p>
+  <a href='https://inspare.cc/policies/privacy' target="_blank">We are committed to your privacy.</a>
   <div class="box" id="list">
   </div>
   <script>
